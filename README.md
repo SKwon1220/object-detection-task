@@ -1,9 +1,9 @@
-# object-detection-task
+# Object Detection Task
 
 This is a simple object detection task to classify and count the number of apples, oranges, and cats that are present in a given image, although it can be extended to include other objects as well. 
 
 # Approach
-I used OpenCV and Tensorflow to load the given image and detect what kinds of objects were present as well as generating the frequency of these distinct objects. I also drew bounding boxes around the different objects using the draw_bbox method from OpenCV. Finally, I used Matplotlib to generate the annotated image and manually constructed a dictionary to store the number of apples, oranges, and cats seen. 
+I used OpenCV and Tensorflow to load the given image and detect what kinds of objects were present as well as generating the frequency of these distinct objects. I also drew bounding boxes around the different objects using the draw_bbox method from OpenCV. Finally, I used Matplotlib to generate the annotated image and manually constructed a dictionary to store the number of apples, oranges, and cats seen.  
 
 # Steps Taken:
 1. Make sure that you have OpenCV and Tensorflow installed on your system. To do so, you can run
@@ -30,4 +30,5 @@ pip install matplotlib
 on your terminal to do so. 
 
 3. Running the given code will yield an image that roughly looks like this:
-![alt text](/Users/heungsunkwon/Annotated Cats and Fruit.png)
+![alt text](https://ibb.co/DbPYSFh)
+and the dictionary containing the count for cats, apples, and oranges will be displayed on the terminal.
