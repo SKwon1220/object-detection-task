@@ -29,6 +29,5 @@ pip install matplotlib
 ```
 on your terminal to do so. 
 
-3. Running the given code will yield an image that roughly looks like this:
+3. Running the given code will yield an image that roughly looks like the one below and the dictionary containing the count for cats, apples, and oranges will be displayed on the terminal.
 ![alt text](https://github.com/SKwon1220/object-detection-task/blob/main/Annotated-Image-of-Cats-and-Fruits.png?raw=true)
-and the dictionary containing the count for cats, apples, and oranges will be displayed on the terminal.
